@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Jiayou – AI-Powered Social Media Automation</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; color: #333; background: #f9f9f9; line-height: 1.7; }
+    header { background: #000; color: #fff; padding: 16px 0; }
+    header .inner { max-width: 1000px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; gap: 12px; }
+    header h1 { font-size: 1.3rem; font-weight: 700; }
+    nav { background: #111; }
+    nav .inner { max-width: 1000px; margin: 0 auto; padding: 0 24px; display: flex; gap: 24px; }
+    nav a { color: #ccc; text-decoration: none; padding: 10px 0; display: inline-block; font-size: 0.9rem; }
+    nav a:hover { color: #fff; }
+    .hero { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); color: #fff; padding: 80px 24px; text-align: center; }
+    .hero h2 { font-size: 2.5rem; font-weight: 800; margin-bottom: 16px; }
+    .hero p { font-size: 1.15rem; color: #aac4e8; max-width: 600px; margin: 0 auto 32px; }
+    .btn { display: inline-block; background: #e91e63; color: #fff; padding: 14px 32px; border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 1rem; }
+    .btn:hover { background: #c2185b; }
+    .features { max-width: 1000px; margin: 60px auto; padding: 0 24px; }
+    .features h3 { font-size: 1.6rem; text-align: center; margin-bottom: 40px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+    .card { background: #fff; border-radius: 10px; padding: 28px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+    .card .icon { font-size: 2.2rem; margin-bottom: 12px; }
+    .card h4 { font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; }
+    .card p { color: #555; font-size: 0.95rem; }
+    .how { background: #fff; padding: 60px 24px; }
+    .how .inner { max-width: 1000px; margin: 0 auto; }
+    .how h3 { font-size: 1.6rem; text-align: center; margin-bottom: 40px; }
+    .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; }
+    .step { text-align: center; }
+    .step .num { width: 48px; height: 48px; background: #e91e63; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.2rem; margin: 0 auto 12px; }
+    .step h4 { font-weight: 700; margin-bottom: 6px; }
+    .step p { color: #666; font-size: 0.9rem; }
+    .platforms { background: #f0f4ff; padding: 50px 24px; text-align: center; }
+    .platforms h3 { font-size: 1.4rem; margin-bottom: 24px; }
+    .platforms .logos { display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; }
+    .platforms .logo { background: #fff; border-radius: 8px; padding: 16px 24px; font-weight: 700; font-size: 1rem; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+    .cta { background: #1a1a2e; color: #fff; text-align: center; padding: 60px 24px; }
+    .cta h3 { font-size: 1.8rem; margin-bottom: 16px; }
+    .cta p { color: #aac4e8; margin-bottom: 28px; }
+    footer { background: #000; color: #666; text-align: center; padding: 24px; font-size: 0.85rem; }
+    footer a { color: #999; text-decoration: none; margin: 0 8px; }
+    footer a:hover { color: #fff; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <span style="font-size:1.6rem;">🤖</span>
+    <h1>AI Jiayou</h1>
+  </div>
+</header>
+<nav>
+  <div class="inner">
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h2>AI-Powered Content Automation</h2>
+  <p>Automatically generate and publish engaging short-form video content to TikTok and YouTube using advanced AI technology.</p>
+  <a href="contact.html" class="btn">Get Started</a>
+</div>
+
+<div class="features">
+  <h3>What AI Jiayou Does</h3>
+  <div class="grid">
+    <div class="card">
+      <div class="icon">✍️</div>
+      <h4>AI Script Generation</h4>
+      <p>Claude AI automatically generates engaging scripts for trivia, news summaries, and educational content in Japanese and English.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🎬</div>
+      <h4>Automated Video Creation</h4>
+      <p>Instantly compose vertical videos with background footage, text overlays, and AI-generated narration — no editing required.</p>
+    </div>
+    <div class="card">
+      <div class="icon">📱</div>
+      <h4>Auto-Posting to TikTok</h4>
+      <p>Schedule and publish content to TikTok automatically on a hourly or daily basis using the official TikTok Content Posting API.</p>
+    </div>
+    <div class="card">
+      <div class="icon">📊</div>
+      <h4>Content Variety</h4>
+      <p>Supports multiple content categories including fun facts (豆知識), current news (ニュース解説), and English learning phrases.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🔒</div>
+      <h4>Secure & Compliant</h4>
+      <p>Built with privacy-first principles. We use official APIs and OAuth2 authorization — your credentials are never stored insecurely.</p>
+    </div>
+    <div class="card">
+      <div class="icon">⚡</div>
+      <h4>Fully Automated Pipeline</h4>
+      <p>Set it and forget it. The system generates scripts, creates videos, and posts to TikTok — all without manual intervention.</p>
+    </div>
+  </div>
+</div>
+
+<div class="how">
+  <div class="inner">
+    <h3>How It Works</h3>
+    <div class="steps">
+      <div class="step">
+        <div class="num">1</div>
+        <h4>Connect Account</h4>
+        <p>Authorize AI Jiayou to access your TikTok account via secure OAuth2 login.</p>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <h4>Choose Content</h4>
+        <p>Select content categories and posting frequency that fits your strategy.</p>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <h4>AI Generates</h4>
+        <p>Claude AI writes a script, and our system automatically creates a vertical video.</p>
+      </div>
+      <div class="step">
+        <div class="num">4</div>
+        <h4>Auto-Post</h4>
+        <p>The finished video is posted directly to your TikTok account on schedule.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="platforms">
+  <h3>Powered By</h3>
+  <div class="logos">
+    <div class="logo">🎵 TikTok API</div>
+    <div class="logo">🤖 Claude AI</div>
+    <div class="logo">📸 Pexels</div>
+    <div class="logo">🔊 Google TTS</div>
+  </div>
+</div>
+
+<div class="cta">
+  <h3>Ready to Automate Your Content?</h3>
+  <p>Start publishing AI-generated videos to TikTok automatically today.</p>
+  <a href="contact.html" class="btn">Contact Us</a>
+</div>
+
+<footer>
+  &copy; 2026 AI Jiayou. All rights reserved.
+  <br><br>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+  <a href="contact.html">Contact</a>
+</footer>
+</body>
+</html>
